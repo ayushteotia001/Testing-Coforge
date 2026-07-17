@@ -1,0 +1,18 @@
+package com.Lab_Session;
+
+public class LargestOfTwoNumbers {
+
+    public static int findLargest(int a, int b) {
+        if (a > b) {
+            return a;
+        } else {
+            return b;
+        }
+    }
+
+    public static void main(String[] args) {
+        int num1 = 45;
+        int num2 = 78;
+        System.out.println("Largest of " + num1 + " and " + num2 + " is: " + findLargest(num1, num2));
+    }
+}
